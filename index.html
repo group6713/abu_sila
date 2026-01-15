@@ -4,14 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
-
-    <section>
-        <h1>Hello world</h1>
-    </section>
-
+    <div class="flex gap-2 items-center justify-center h-[40px] ">
+        <p class="w-[20px] h-[20px] rounded-full bg-[#797979] text-white text-center text-[10px] pt-1"><i class="fa-solid fa-angle-left"></i></p>
+        <p class="font-semibold uppercase text-[#797979] text-center">Гарантия лучшей цены</p>
+        <p class="w-[20px] h-[20px] rounded-full bg-[#797979] text-white text-center text-[10px] pt-1"><i class="fa-solid fa-angle-right"></i></p>
+    </div>
+    <!-- Navbar -->
+     <div class="main bg-[url(./main.png)] h-[650px] bg-no-repeat bg-cover">
+        <nav class="flex justify-around items-center py-6">
+        <ul class="text-white flex gap-5 items-center text-">
+            <li><a href="#home">Одежда</a></li>
+            <li><a href="#about">Обувь</a></li>
+            <li><a href="#services">Аксессуары</a></li>
+            <li><a href="#contact">Сумки</a></li>
+            <li><a href="#">Товары для спорта</a></li>
+        </ul>
+        <div class="text-white flex gap-130 items-center">            
+            <img class="h-[20px]" src="./logo.png" alt="">
+            <div class="flex gap-3 ml-6">
+            <p><i class="fa-regular fa-heart"></i></p>
+            <p><i class="fa-solid fa-bag-shopping"></i></p>
+            <p><i class="fa-solid fa-magnifying-glass"></i></p>
+            </div>
+        </div>
+     </nav>
+     <div class="flex flex-col justify-left ml-30 gap-6 mt-40">
+        <h2 class="text-[66px] text-white uppercase font-bold">распродажа <br> товаров для неё</h2>
+        <button class="w-[200px] rounded-[5px] px-6 py-3 text-[13px] text-[#5E5E5E] bg-[#F9F8F7]">Перейти в каталог</button>
+     </div>
+     </div>
+     
 
 </body>
 </html>
